@@ -23,10 +23,12 @@ You can get some use out of the code here just by browsing, starting at the root
 
 #### Linux
 ```bash
-git clone git@gitlab.com:tangibleai/inactive/aima
-cd aima
-python3.10 -m venv .venv
-source .venv/bin/activate 
+degit dmgolembiowski/aima-python-pkg-fork aima-pkg
+cd aima-pkg
+# Probably do pyenv version selection then
+python -m venv .
+source bin/activate # pick your favorite shell suffix 
+pip install -U pip
 pip install -e .
 ```
 
