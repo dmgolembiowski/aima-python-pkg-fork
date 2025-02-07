@@ -2,7 +2,16 @@
 
 Code for Artificial Intelligence: A Modern Approach (AIMA) 4th edition by Peter Norvig and Stuart Russel.
 
-Shameless reuse of Norvig's official repository at https://github.com/aimacode/aima-python/ 
+Shameless plagiarism of a shameless reuse of Norvig's official repository at https://github.com/aimacode/aima-python/ 
+Does anyone write original ideas anymore?
+
+#### Now you can do:
+```python
+from aima.search import *
+from aima.logic import *
+# ...
+```
+
 
 The code should work in Python 3.9 and Python 3.10. Not yet tested with Python 3.11, 3.12, or 3.13.
 
